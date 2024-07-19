@@ -1,0 +1,17 @@
+{
+  "texture_name": "atlas.terrain",
+  "resource_pack_name": "Random Bookshelves", // ID for your resource pack
+  "padding": 8, // Prevent textures from visually overflowing into each other
+  "num_mip_levels": 4, // Quality of texture when viewed from a distance or at an angle
+  "texture_data": {
+    "bookshelf": {
+      "textures": {
+        "variations": [
+          { "path": "textures/blocks/bookshelf1", "weight": 70  },
+          { "path": "textures/blocks/bookshelf2", "weight": 70  },
+          { "path": "textures/blocks/bookshelf3", "weight": 70  }
+        ]
+      }
+    }
+  }
+}
