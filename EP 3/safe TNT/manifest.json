@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Safe TNT pack",
+    "description": "This pack will prevent TNT from blowing up restone components",
+    "uuid": "e015712e-391d-43de-a656-6c04ba95ef97",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "uuid": "b5f1d767-861a-4725-8d27-b987ac06bb11",
+      "version": [
+        2,
+        1,
+        0
+      ],
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/tnt_safety.js"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata":{
+	  "authors": ["u00a7fRavinMaddHatter"],
+	  "license": "MIT",
+	  "product_type":"addon"
+  }
+}
